@@ -1,0 +1,21 @@
+{
+    "mcpServers": {
+        "context7": {
+            "url": "https://mcp.context7.com/mcp"
+        },
+        "n8n-mcp": {
+            "name": "n8n MCP",
+            "command": "node",
+            "args": [
+                "dist/index.js"
+            ],
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "N8N_API_URL": "https://amk-n8n.proen.app.ruk-com.cloud/",
+                "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3YTRmNzA5Zi00ZTkxLTRhYmYtYmQyMC01ZDQyYTk1M2Y4YmQiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzUxNjkwMzQzfQ.ygxWtvJW-7CfG8Z7XmCbpaggG5vtzbZGmGlMKGQYB7E"
+            }
+        }
+    }
+}
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MDRmNWQwZi1iYWQ5LTRjYWYtODczMy1jNmMzODA2YmIzNWEiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzUxNjkxNDk3fQ.5xwh0vh-qQaPxE9arINw_Rl4NqOqqwGq5IKmG5Xh5w8
